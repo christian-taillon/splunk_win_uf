@@ -1,0 +1,349 @@
+{
+  "version": "1.0",
+  "date": "2022-12-08T15:28:15.487011757Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 742,
+    "version": "8.5.0",
+    "files": [
+      {
+        "path": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+        "hash": "a7fd78cf8a03b74da08c74b7254dba9b281cd064b7ec6426c3f1d40023286a69"
+      },
+      {
+        "path": "README/transforms.conf.spec",
+        "hash": "e6de02a617fbe32aecec1daaa3e6e97f8b925c72d0380c6a09f47c9645c693e6"
+      },
+      {
+        "path": "README.txt",
+        "hash": "3b5d020d8b1f20f96a023b8f37d11277f629b63130071bc5f4896727a402b1ae"
+      },
+      {
+        "path": "THIRDPARTY",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "VERSION",
+        "hash": "58f1bf2a447247acf0b27c1f3a2b0aa7185d8b1f6fb3c691a67e257a678f3b9a"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "a28759cb1445dc5c6ca192f77e0fdb2d560997efc47364b123eeb5fdd44bf2a2"
+      },
+      {
+        "path": "appserver/static/appIcon.png",
+        "hash": "58ca5e5a60e96462ac7f9ce533b20c2928b51e2ad8886f9ca42e789a1775e8a4"
+      },
+      {
+        "path": "appserver/static/appLogo.png",
+        "hash": "c19b2fc8219cd435a8d59d683c98590f5c0d198be4d0f5004a6af000266f64fd"
+      },
+      {
+        "path": "bin/Invoke-MonitoredScript.ps1",
+        "hash": "fe2bcdf2631f293f4af2f5d8d0c6ca49b57793065fbfc6c303b3c99f315caacd"
+      },
+      {
+        "path": "bin/log.py",
+        "hash": "d0dc08cd8fd0beba8312b63c34511a5ce9d8314db3526de42b306c801f95fe31"
+      },
+      {
+        "path": "bin/netsh_address.bat",
+        "hash": "d437daa86ca97b67cde2a2970dc2d7e3b377106c7cb8a8ba331b37ae825e9c05"
+      },
+      {
+        "path": "bin/powershell/2012r2-health.ps1",
+        "hash": "6544efaf45d1678f8e5568d9c88735cc41bbcd695932c6dfc1fbc554edeece9d"
+      },
+      {
+        "path": "bin/powershell/2012r2-repl-stats.ps1",
+        "hash": "23da95f7136ea9311e5480db9b7fe0583285a23805e8d9d54e5413cd18ae78f3"
+      },
+      {
+        "path": "bin/powershell/2012r2-siteinfo.ps1",
+        "hash": "ac729a4a5ee0f0aafac9cea053c8f3c7450b322af9f0475c7cd2002eb17da6e4"
+      },
+      {
+        "path": "bin/powershell/dns-health.ps1",
+        "hash": "ceb0b563e9eb5e57c10e59eacb4e462df892538c3ddc6f9b132d543503c670ea"
+      },
+      {
+        "path": "bin/powershell/dns-zoneinfo.ps1",
+        "hash": "343ec3357a87a6191d0d2d949b647dd08cfb72402151f36c002a77fbed7d4fba"
+      },
+      {
+        "path": "bin/powershell/generate_windows_update_logs.ps1",
+        "hash": "cbf6b5321b923b7585a0dc652acbe030730b974ab64149df3d1ef054bb87394e"
+      },
+      {
+        "path": "bin/powershell/nt6-health.ps1",
+        "hash": "7ca909d047a497caf356599e9da7d2a9e88d7e8513164d906ba7e0f8c5220ab2"
+      },
+      {
+        "path": "bin/powershell/nt6-repl-stat.ps1",
+        "hash": "748e1080879de1f0f57c37d45139e81754148fd8eb8011cabd970433bc19e7f7"
+      },
+      {
+        "path": "bin/powershell/nt6-siteinfo.ps1",
+        "hash": "905598602a3f55b03c311227e3a66093f8045f4c81879c67f106d97e9f35ce55"
+      },
+      {
+        "path": "bin/runpowershell.cmd",
+        "hash": "7041bc5d83b3ff2b96dc8dfdc5e557dab37c54ed574e895734ac12e61f4da834"
+      },
+      {
+        "path": "bin/user_account_control_property.py",
+        "hash": "790bfc833d7a660820708e30a3809889905313ffb225f90f049e4c2d1d599187"
+      },
+      {
+        "path": "bin/win_installed_apps.bat",
+        "hash": "06b89a4173f5ca0f18988886175afe3bf5da9842302de26d08f491350836e303"
+      },
+      {
+        "path": "bin/win_listening_ports.bat",
+        "hash": "6d1ffc971a457f2e4de4eb9fc7944a2b9fd7853fb9a07b6f534a2367f6b87583"
+      },
+      {
+        "path": "bin/win_timesync_configuration.bat",
+        "hash": "7a030615238ba0be0f34a8c1509122d084d011a34601975b3ed81e4c87d49cda"
+      },
+      {
+        "path": "bin/win_timesync_status.bat",
+        "hash": "e6dd26a67f88228e9b862c5684d5133c9da58c65ed3065f7a9694f75202c8ad9"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "f9d3b7a92908058f286c5608cb9a3bcaef84abee03987570b4742d5e0c35aefb"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "a1a5771e9da22cfd1fcde7a5fd34855d4fb8a11ac7ee3af0fb67286733db2ae1"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "b4580efaf35ff61d99fdab88366deb75a1428682595668db61896b52f2286775"
+      },
+      {
+        "path": "default/macros.conf",
+        "hash": "67dea90fd9f4af58c855011e33b4b735885aae43adc6dca577c1394da045b564"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "379b0b742cc177a3761b6a30bb73ce1dd4af36e313723908794da4419097a695"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "111e7f25c33963f34997d05b8fb551ca2480ffbfba1db33901038a06251ccf7f"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "082dd303a657ffd948e50bc7bae779fddde6a8724b358f9a4cc08ba3a6a86540"
+      },
+      {
+        "path": "default/wmi.conf",
+        "hash": "86cd83b82daa02eab67ff6c33e2e6e2ddd44112d69c7c4501bf5fa55b43ba7be"
+      },
+      {
+        "path": "default/workflow_actions.conf",
+        "hash": "d0bbb3d3c61b9e95258b312f3e4976fa297862e470063220e90b578fc3638929"
+      },
+      {
+        "path": "lib/requirements.txt",
+        "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "lookups/dns_action_lookup.csv",
+        "hash": "712f9bf107a7d383c0d28575040ed7c60a701ce7c335d7b2687b073ff9fab379"
+      },
+      {
+        "path": "lookups/dns_recordclass_lookup.csv",
+        "hash": "c351444dd1bdb7254766e7aa09dfc067defc643b3376b60f95f3d445f65074d4"
+      },
+      {
+        "path": "lookups/dns_vendor_lookup.csv",
+        "hash": "1986da585a391ba0156960df394766d5b3c92e623e19b54df1943c81fa3cc251"
+      },
+      {
+        "path": "lookups/msad_group_type.csv",
+        "hash": "9510d0544693fa6dacdfc08108fc388dd1cadff93ad50830de291161de371a84"
+      },
+      {
+        "path": "lookups/msdhcp_signatures.csv",
+        "hash": "9ffe55a6449bab3040a154168090b363ca841f609b41fdebee46cdc30619e47e"
+      },
+      {
+        "path": "lookups/object_category_850.csv",
+        "hash": "6866017c7c6302dcd83fa21cd56a4a18fda59159e45e613ede2a2ba22bdc4c59"
+      },
+      {
+        "path": "lookups/status_850.csv",
+        "hash": "a7ead254450b229fc7440f954fe79ae40afc006a015f19707c27cbc1dccb1b08"
+      },
+      {
+        "path": "lookups/user_types.csv",
+        "hash": "591e0bbbd936405ab407fcd981ba4a7fd4a187fc07c5a0b3459f12c64d52cfbd"
+      },
+      {
+        "path": "lookups/vendor_actions.csv",
+        "hash": "86f4a40e9ee11af5a11200bbf0c943ec89e15ad3c316def741fb43104334143e"
+      },
+      {
+        "path": "lookups/windows_actions.csv",
+        "hash": "d20f52a9e425d38a282566bab195553b4b4d7e31ab6bdc061dcc27267bdca112"
+      },
+      {
+        "path": "lookups/windows_apps.csv",
+        "hash": "65bff9b023cefcb7b162a2c18ba97e3984cae523cb683b5962eb60101b4a6c44"
+      },
+      {
+        "path": "lookups/windows_audit_changes_850.csv",
+        "hash": "6a318beda4fb0cd6420d02e6452dd587d4d24ad6320072853e89ab75630129fd"
+      },
+      {
+        "path": "lookups/windows_endpoint_port_transport.csv",
+        "hash": "9ecdfacaeb96ea301da86bc50cb11304d47a72029417ae5e4da0dba60ac69278"
+      },
+      {
+        "path": "lookups/windows_endpoint_service_service_name.csv",
+        "hash": "4663dff39adb8341b43dfd66d5de2ceedca0f79cb33fdd107d417b9196693b0d"
+      },
+      {
+        "path": "lookups/windows_endpoint_service_service_type.csv",
+        "hash": "840db7242753fa5acce0ab640af048ca44028af10c54ad4968bea5066bd53434"
+      },
+      {
+        "path": "lookups/windows_eventtypes.csv",
+        "hash": "859e2adcca2c4be481da1a4ea20a748c8da7cbb4e20d2570792e4623a239798e"
+      },
+      {
+        "path": "lookups/windows_privileges.csv",
+        "hash": "48cee3fb19f8378af0229a20ccdad2a720ecf9fc5f69c8550590392cfcb71278"
+      },
+      {
+        "path": "lookups/windows_severities.csv",
+        "hash": "bd2c0abfac483f3917bc0f4deee335903acc0e81b999d0a2cf659688eb88fa16"
+      },
+      {
+        "path": "lookups/windows_signatures_850.csv",
+        "hash": "abae4667cfbb62f430e5dfd7fef06f7fef6bb13da2dc28891774c5386d018e8e"
+      },
+      {
+        "path": "lookups/windows_signatures_substatus_850.csv",
+        "hash": "929c60ac269f81cf2de152b01731ba93dca24ddb6bf35b55e89cf56f0679b5d6"
+      },
+      {
+        "path": "lookups/windows_start_mode_lookup.csv",
+        "hash": "f0d524db6c2f697049caa96cee2fbbfaebbf18de067ef343a93855c098c64850"
+      },
+      {
+        "path": "lookups/windows_timesync_actions.csv",
+        "hash": "39954a4a0af9374de1ec551deff90a59632582a0b08ad1dfc012d008e58c0c6f"
+      },
+      {
+        "path": "lookups/windows_update_statii.csv",
+        "hash": "8cfa62aec821b80b8d8cbb4fa150d4fa3cc94a5affd3291bb623ba3186d8313a"
+      },
+      {
+        "path": "lookups/windows_wineventlog_change_action.csv",
+        "hash": "5e529bee3b969aa7a76d43791f22ee94ad4838a6995efa258f1aa0b29503a9d0"
+      },
+      {
+        "path": "lookups/windows_wineventlog_change_object_fields_850.csv",
+        "hash": "40f2c31930feecba447c6c8efb9de5a60aa5824cb12ce66c7f71bfaa8b6caa94"
+      },
+      {
+        "path": "lookups/wmi_user_account_status.csv",
+        "hash": "5900b71658263d995cdd1a702e6c24dec50cb4bbd67a39703bb525f173dfd95a"
+      },
+      {
+        "path": "lookups/wmi_version_range.csv",
+        "hash": "1b84cbba7bcd377ab6f6a0daebc9866d627435b25948716294e26f50edfd9e9e"
+      },
+      {
+        "path": "lookups/xmlsecurity_change_audit_and_account_management_850.csv",
+        "hash": "1db491497ede543762a4266bba136e653a01766f4fbbbf1e0cd6bcc9c6d78b32"
+      },
+      {
+        "path": "lookups/xmlsecurity_eventcode_action.csv",
+        "hash": "9510c886ea0748af06b03c98c6cce7172fb6656de50738ac455666c4b973916e"
+      },
+      {
+        "path": "lookups/xmlsecurity_eventcode_action_multiinput.csv",
+        "hash": "9a89a45c39e6c7839d9ff64b9a452b87e07deea014e92a44e27bca415b59476b"
+      },
+      {
+        "path": "lookups/xmlsecurity_eventcode_errorcode_action.csv",
+        "hash": "f6c44704efef846b50e71347900c6c086306be035d959a9353504c0ddc0b1f61"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "3fce8cae01dbdb7e21b54a8aa415792abe20fe20d11478a861f30f677ecdc5b9"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "58ca5e5a60e96462ac7f9ce533b20c2928b51e2ad8886f9ca42e789a1775e8a4"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "58ca5e5a60e96462ac7f9ce533b20c2928b51e2ad8886f9ca42e789a1775e8a4"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "31d72774b9379018ff221bb3fbaa2aff90148fb7e74f1b1e3bb9523a7ea4ca3d"
+      },
+      {
+        "path": "static/appIconLg.png",
+        "hash": "31d72774b9379018ff221bb3fbaa2aff90148fb7e74f1b1e3bb9523a7ea4ca3d"
+      },
+      {
+        "path": "static/appIconLg_2x.png",
+        "hash": "afb72b1f2dc07a3efb49c3216f80a3443d11b075dec9605a9b681488df953f7e"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "31d72774b9379018ff221bb3fbaa2aff90148fb7e74f1b1e3bb9523a7ea4ca3d"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}
