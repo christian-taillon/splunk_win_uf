@@ -20,18 +20,20 @@
     [Inputs.conf](https://docs.splunk.com/Documentation/Splunk/9.0.3/Admin/Inputsconf)
  #>
 
-auditpol /set /category:"System","Account Management","Account Logon","Logon/Logoff","Policy Change","DS Access","Object Access" /failure:enable /success:enable
-
 # Category: Failure and Success
-auditpol /set /category: "Account Logon","System" /failure:enable /success:enable
+write-output"Modifying Category: Failure and Success"
+auditpol /set /category:"Account Logon","System" /failure:enable /success:enable
 
 # Subcategory: Failure and Success
-auditpol /set /subcategory:"Computer Account Management","Other Account Management Events","Security Group Management","User Account Management","DPAPI Activity","Process Creation","Logon","Other Logon/Logoff Events","Special Logon","Audit Policy Change","Authentication Policy Change" /failure:enable /success:enable
+write-output"Subcategory: Failure and Success"
+auditpol /set /subcategory:"Computer Account Management","Other Account Management Events","Security Group Management","User Account Management","DPAPI Activity","Process Creation","Logon","Other Logon/Logoff Events","Special Logon","Audit Policy Change","Authentication Policy Change","SAM" /failure:enable /success:enable
 
 # Subcategory: Success
+write-output"Subcategory: Success"
 auditpol /set /subcategory:"Account Lockout","Logoff","Registry" /failure:disable /success:enable
 
 # DC Policy
+write-output"DC Policies"
 auditpol /set /subcategory:"Directory Service Access","Directory Service Changes" /failure:enable /success:enable
 
 auditpol /get /category:*
