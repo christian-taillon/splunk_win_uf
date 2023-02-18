@@ -17,17 +17,17 @@
 .LINK
     [Information regarding the Splunk Universal Forwarder](https://www.splunk.com/en_us/blog/learn/splunk-universal-forwarder.html)
     [Inputs.conf](https://docs.splunk.com/Documentation/Splunk/9.0.3/Admin/Inputsconf)
+    [SplunkUFInstall](https://docs.splunk.com/Documentation/Forwarder/9.0.4/Forwarder/InstallaWindowsuniversalforwarderfromaninstaller#Install_a_Windows_universal_forwarder_from_the_command_line)
  #>
 
 # If you would like to set your own passphrase, modify the following and set it here. Otherwise, by default, the password is randomly generated.
 $passphrase = "Unsold4-8x64b-Monoxide-Sector"
-$forwardserver = "" # set forward server
 
 wget -O splunkforwarder-9.0.3-dd0128b1f8cd-x64-release.msi "https://download.splunk.com/products/universalforwarder/releases/9.0.3/windows/splunkforwarder-9.0.3-dd0128b1f8cd-x64-release.msi"
 
 ## If you desire to set a password, uncomment line 28 and comment line 29.
-# msiexec /i splunkforwarder-9.0.3-dd0128b1f8cd-x64-release.msi AGREETOLICENSE=Yes SPLUNKPASSWORD=$passphrase FORWARD_SERVER=$forwardserver /quiet
-msiexec /i splunkforwarder-9.0.3-dd0128b1f8cd-x64-release.msi AGREETOLICENSE=Yes GENRANDOMPASSWORD=1 FORWARD_SERVER=$FORWARD_SERVER /quiet
+# msiexec /i splunkforwarder-9.0.3-dd0128b1f8cd-x64-release.msi AGREETOLICENSE=Yes SPLUNKPASSWORD=$passphrase /quiet
+msiexec /i splunkforwarder-9.0.3-dd0128b1f8cd-x64-release.msi AGREETOLICENSE=Yes GENRANDOMPASSWORD=1 /quiet
 
 # I am cheap and Microsoft is silly ;)
 # SIG # Begin signature block
