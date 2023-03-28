@@ -38,6 +38,6 @@ auditpol /set /subcategory:"Directory Service Access","Directory Service Changes
 
 auditpol /get /category:*
 
-# I am cheap and Microsoft is silly ;)
+# I am cheap and don't want to buy signing cert - and Microsoft is easy to trick ;)
 # SIG # Begin signature block
 # SIG # End signature block
